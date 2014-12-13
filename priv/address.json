@@ -1,17 +1,6 @@
 {
   "en": {
-    "formats": {
-      "building_number": ["#####", "####", "###", "##", "#"],
-      "secondary_address": ["Apt. ###", "Suite ###"],
-      "zip_code": ["#####", "#####-####"]
-    },
     "functions": {
-      "city": [
-        "#{city_prefix} #{Faker.Name.first_name}#{city_suffix}",
-        "#{city_prefix} #{Faker.Name.first_name}",
-        "#{Faker.Name.first_name}#{city_suffix}",
-        "#{Faker.Name.last_name}#{city_suffix}"
-      ],
       "street_address": [
         "#{building_number} #{street_name}"
       ],
